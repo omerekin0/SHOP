@@ -1,0 +1,235 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+
+html,
+body {
+    margin: 0px;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* mini phone */
+@media (max-width: 411px){
+    .sol-container {  
+        box-shadow: none !important;
+        width: 200px;
+        height: 150px;
+        margin-bottom: 5px;
+    }
+
+    .sağ-container { 
+        width: 200px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 9px;
+    }
+}
+
+/* phone */
+@media (min-width: 412px) and (max-width: 575px){
+    .sol-container, .sağ-container {  
+        height: 150px;
+        width: 200px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 11px;
+    }
+}
+
+/* Landscape */
+@media (min-width: 576px) and (max-width: 767px) {
+    .sol-container, .sağ-container {
+        width: 250px;
+        height: 150px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 12px;
+    }
+}
+
+/* tables */
+@media (min-width: 768px) and (max-width: 991px)  {
+    .sol-container, .sağ-container {
+        width: 350px;
+        height: 150px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 13px;
+    }
+}
+
+/* desktop */
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .sol-container, .sağ-container {
+        width: 400px;
+        height: 150px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 13px;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1200px) and (max-width: 1399px)  {
+    .sol-container, .sağ-container {
+        width: 400px;
+        height: 150px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 13px;
+    }
+}
+
+/* xlarge desktop */
+@media (min-width: 1400px) {
+  .sol-container, .sağ-container {
+        width: 400px;
+        height: 150px;
+    }
+
+    .boş-sepet h3, .ütoplam p, h3, footer{
+        font-size: 13px;
+    }
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(68, 68, 68);
+    position: fixed;
+    z-index: 1;
+}
+
+header h1 {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back {
+    display: block;
+    width: 100px;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 140px;
+    color: rgb(68, 68, 68);
+    width: 100%;
+    transition: all .5s;
+    text-align: center;
+}
+
+.fa-arrow-left:hover {
+    padding: 10px;
+}
+
+
+
+
+
+
+.tüm-ürünler {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.sol-container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.ürün-açıklaması {
+    height: 30px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.ürün-açıklaması h3 {
+    margin: 0px;
+}
+
+.fiyatp {
+    display: block;
+    text-align: center;
+}
+ 
+ .adet-container, .bebeler, h4 {
+    display: inline-block;
+}
+
+
+.boş-sepet {
+    text-align: center;
+}
+
+.sağ-container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.ütoplam p, h3 {
+    display: inline-block;
+}
+
+.ttutar {
+    margin-left: 60%;
+    margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.linkler {
+    display: block;
+}
+  
+.linkler a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+  
+.fa-instagram {
+    color: #9336b4;
+}
+  
+.fa-twitter {
+    color: #30a2ff;
+}

@@ -1,0 +1,247 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+html,
+body {
+  margin: 0px;
+  
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* phone */
+@media (max-width: 575px){
+    .ürün {
+        margin: 0px 30px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .ürün a, .ilk-reklam a, .son-reklam a, .magazalar a, footer  {
+        font-size: 10px;
+    }
+
+    .a-lar{
+        margin: 10px;
+    }
+}
+
+/* Landscape */
+@media (min-width: 576px) and (max-width: 991px) {
+    .ürün {
+        margin: 30px;
+        height: 85px;
+        width: 85px;
+    }
+
+    .ürün a, .ilk-reklam a, .son-reklam a, .magazalar a, footer {
+        font-size: 11px;
+    }
+
+    .a-lar:hover{
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+/* desktop */
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .ürün {
+        margin: 30px;
+        height: 130px;
+        width: 130px;
+    }
+
+    .ürün a, .ilk-reklam a, .son-reklam a, .magazalar a, footer {
+        font-size: 12px;
+    }
+
+    .a-lar:hover{
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1200px) and (max-width: 1399px)  {
+    .ürün {
+        margin: 30px;
+        height: 130px;
+        width: 130px;
+    }
+
+    .ürün a, .ilk-reklam a, .son-reklam a, .magazalar a, footer {
+        font-size: 13px;
+    }
+
+    .a-lar:hover{
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+/* xlarge desktop */
+@media (min-width: 1400px) {
+    .ürün {
+        margin: 30px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .ürün a, .ilk-reklam a, .son-reklam a, .magazalar a, footer {
+        font-size: 14px;
+    }
+
+    .a-lar:hover{
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(68, 68, 68);
+  position: fixed;
+  z-index: 1;
+}
+
+.header h1 {
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+  
+main {
+    height: 800px;
+    display: flex;
+    width: 100%;
+}
+
+.main-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.magazalar {
+    border-bottom: 1px solid;
+    margin-left: 11%;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.magazalar a{
+    color: #333;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.profil-container {
+    height: 30px;
+    width: 30px;
+    justify-content: flex-end;
+}
+
+.prfile-photo a {
+    display: block;
+    background-image: url(/img/people\ -\ Kopya.png);
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.ilk-reklam-container, .son-reklam-container {
+    margin-top: 150px;
+    width: 15%;
+    text-align: center;
+    border: 1px solid;
+}
+
+.ilk-reklam, .son-reklam {
+    margin-top: 290px;
+}
+
+.ilk-reklam a, .son-reklam a {
+    text-decoration: none;
+    color: black;
+}
+
+.galeri {
+    border-bottom: 1px solid;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ürünler {
+    border: 2px solid #333;
+    margin-top: 170px;
+    width: 95%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+}
+
+.ürün {
+    
+    background-color: #fff;
+    border-radius: 4px;
+    border: 2px solid;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.ürün a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+} 
+  
+.linkler a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+}
+  
+.fa-instagram {
+    color: #9336b4; 
+    text-decoration: none;
+    font-size: 30px;
+}
+  
+.fa-twitter {
+    color: #30a2ff;
+    text-decoration: none;
+    font-size: 30px;
+}

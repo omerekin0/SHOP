@@ -1,0 +1,86 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(68, 68, 68);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+#E-Mail {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Geri-dön-container {
+  display: flex;
+  justify-content: center;
+}
+
+.geri-dön-btn {
+  border-radius: 5px;
+  padding: 8px 126px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.back {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-arrow-left {
+  color: #333;
+  text-decoration: none;
+}
+
+.fa-arrow-left p {
+  color: #333;
+}

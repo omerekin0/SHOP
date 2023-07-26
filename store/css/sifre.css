@@ -1,0 +1,95 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(68, 68, 68);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1{
+  margin: 0px;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.error {
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  color: #a94442;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+  display: none;
+}
+
+.f-me {
+  height: 30px;
+  width: 200px;
+  display: flex;
+}
+
+.f-me label {
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.kayıtol-container {
+  margin-top: 10px;
+}
+
+.register-btn-container p{
+  display: inline;
+}
+
+.kayıt-ol-btn {
+  display: inline;
+  color: #a94442;
+  text-decoration: none;
+}
+

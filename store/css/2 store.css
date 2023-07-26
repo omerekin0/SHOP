@@ -1,0 +1,172 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+
+html,
+body {
+    margin: 0px;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(68, 68, 68);
+    position: fixed;
+    z-index: 1;
+}
+
+header h1 {
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back {
+    display: block;
+    width: 100px;
+}
+
+.fa-arrow-left {
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 140px;
+    color: rgb(68, 68, 68);
+    width: 100%;
+    transition: all .5s;
+    text-align: center;
+}
+
+.fa-arrow-left:hover {
+    padding: 10px;
+}
+
+.tüm-ürünler {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    .tüm-ürünler {
+        width: 99%;  
+    }
+}
+
+.sol-container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    width: 55%;
+    display: inline-block;
+    margin-top: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 1%;
+}
+
+.fiyatp {
+    display: block;
+    text-align: center;
+}
+ 
+.checkbox ,.img, .isim, .adet-container, .ürün-fiyatı, .fa-trash-can, .bebeler, .satıcı input, p, h4, i {
+    display: inline-block;
+}
+
+.img img {
+    width: 50px;
+    transform: translate(0px, 30%);
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.fa-trash-can {
+    color: #333;
+}
+
+.fa-trash-can:hover {
+    color: orangered;
+}
+
+.aciklama p {
+    display: block;
+    text-align: center;
+}
+
+.bebeler {
+    margin-left: 50%;
+}
+
+.sağ-container {
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 37%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 1%;
+}
+
+.ütoplam p, h3 {
+    display: inline-block;
+}
+
+@media (max-width:550px) {
+    .ütoplam h4 {
+        display: block;
+    }
+}
+
+.ttutar {
+    margin-left: 60%;
+}
+
+.aetiket   {
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.aetiket a {
+    display: block;
+    text-align: center;
+    background-color: orangered;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    border-radius: 10px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all .6s;
+}
+
+.aetiket a:hover {
+    background-color: rgb(68, 68, 68);
+    color: orangered;
+}
+
+footer {
+    text-align: center;
+}
+
+.linkler {
+    display: block;
+}
+  
+.linkler a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+  
+.fa-instagram {
+    color: #9336b4;
+}
+  
+.fa-twitter {
+    color: #30a2ff;
+}

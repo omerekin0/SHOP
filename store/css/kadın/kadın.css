@@ -1,0 +1,175 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+html,
+body {
+  margin: 0px;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .ürünler {
+    margin-top: 200px;
+  }
+
+  .sepet-content {
+    right: 0px;
+  }
+
+  .back {
+    left: 0px;
+  }
+
+  .back, .fa-arrow-left, .fa-store, .sepet-content {
+    margin: 0px;
+  }
+}
+
+@media (max-width:1669px) {
+  .sepet-content {
+    right: 0px;
+  }
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(68, 68, 68);
+  position: fixed;
+  z-index: 1;
+}
+
+header h1 {
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back {
+  margin-top: 140px;
+  position: fixed;
+}
+
+.fa-arrow-left {
+  cursor: pointer;
+  padding: 0px 9px;
+  background-color: rgba(68, 68, 68, 1 );
+  color: #fff;
+  border-radius: 3px;
+  transition: all .6s;
+  font-size: 12px;
+}
+
+.fa-arrow-left:hover {
+  color: rgba(68, 68, 68, 1 );
+  background-color: #fff;
+}
+
+.sepet-content {
+  margin-top: 140px;
+  position: fixed;
+  right: 1%;
+}
+
+.fa-store {
+  cursor: pointer;
+  padding: 5px 15px;
+  background-color: rgba(68, 68, 68, 1 );
+  color: #fff;
+  border-radius: 3px;
+  transition: all .6s;
+  font-size: 20px;
+}
+
+.fa-store:hover {
+  color: rgba(68, 68, 68, 1 );
+  background-color: #fff;
+}
+
+.ürün {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ürünler {
+  margin-top: 200px;
+  height: 540px;
+  width: 290px;
+  background-color: #333;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-radius: 5px;
+  transition: all 0.6s;
+}
+
+.baslik {
+  height: 30px;
+  padding: 6px;
+}
+
+.baslik h6 {
+  text-align: center;
+  padding: 0px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+
+.img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img img {
+  border-radius: 10px;
+}
+
+.btn,
+.ürün,
+footer {
+  text-align: center;
+}
+
+.fiyat p{
+  color: #fff;
+}
+
+.linkler {
+  display: block;
+}
+
+a {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.fa-instagram {
+  color: #9336b4;
+}
+
+.fa-twitter {
+  color: #30a2ff;
+}
+
+.btn a {
+  border: 1px solid #fff;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+  width: 100px;
+  border-radius: 5px;
+  transition: all .5s;
+}
+.btn a:hover  {
+  color: rgb(158, 158, 158);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="/css/sifre.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>LOG İN</h1>
+    </div>
+    <form>
+      <label for="username">Kullanıcı Adı:</label>
+      <input type="text" id="username" name="username" /><br /><br />
+      <label for="password">Şifre:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+      <div class="f-me">
+        <label for="checkbox">Remember Me</label>
+        <input type="checkbox" id="checkbox" />
+      </div>
+      <div class="kayıtol-container">
+        <div class="register-container">
+          <div class="register-btn-container">
+            <p>Don't have an account,</p>
+            <a href="/html/giris/kayıtol.html" class="kayıt-ol-btn">Sign up</a>
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="Giriş Yap" />
+      <div class="error" style="display: none">
+        Kullanıcı adı veya şifre hatalı.
+      </div>
+    </form>
+    <script src="/js/sifre.js"></script>
+  </body>
+</html>
